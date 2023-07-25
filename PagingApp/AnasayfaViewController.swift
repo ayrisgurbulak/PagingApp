@@ -15,11 +15,11 @@ class AnasayfaViewController: UIViewController {
         navigationItem.title = "ANASAYFA"
     }
 
-    @IBAction func sayfaAButton(_ sender: UIButton) {
+    @IBAction func sayfaAaction(_ sender: UIButton) {
         performSegue(withIdentifier: "toA", sender: self)
     }
     
-    @IBAction func sayfaXButton(_ sender: Any) {
+    @IBAction func sayfaBaction(_ sender: UIButton) {
         performSegue(withIdentifier: "toX", sender: self)
     }
 }
